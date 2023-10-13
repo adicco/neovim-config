@@ -1,6 +1,6 @@
 return {
 	{
-		"rebelot/terminal.nvim",
+		"numToStr/FTerm.nvim",
 		config = true,
 	},
 }
