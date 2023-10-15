@@ -25,13 +25,13 @@ return {
 						-- ["<C-q>"] = actions.send_selected_to_qflist + actions.open_qflist,
 					},
 				},
-				extensions = {
-					lsp_handlers = {
-						code_action = {
-							telescope = require("telescope.themes").get_dropdown({}),
-						},
-					},
-				},
+				-- extensions = {
+				-- 	lsp_handlers = {
+				-- 		code_action = {
+				-- 			telescope = require("telescope.themes").get_dropdown({}),
+				-- 		},
+				-- 	},
+				-- },
 			},
 		})
 

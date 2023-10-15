@@ -77,7 +77,17 @@ return {
 		})
 
 		-- configure typescript server with plugin
-		lspconfig["tsserver"].setup({
+		-- lspconfig["tsserver"].setup({
+		-- 	capabilities = capabilities,
+		-- 	on_attach = on_attach,
+		-- })
+
+		-- lspconfig["vtsls"].setup({
+		-- 	capabilities = capabilities,
+		-- 	on_attach = on_attach,
+		-- })
+
+		require("typescript-tools").setup({
 			capabilities = capabilities,
 			on_attach = on_attach,
 		})
